@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Memória - Emoções</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <h1>Jogo da Memória - Emoções</h1>
+        <nav>
+            <a href="#sobre">Sobre o Jogo</a>
+            <a href="#jogar">Jogar Agora</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <!-- Seção de Introdução com Imagem de Capa -->
+    <section class="intro">
+        <div class="intro-text">
+            <h2>Desafie sua Memória com Emoções!</h2>
+            <p>Um jogo divertido para testar sua memória enquanto se diverte com expressões emocionantes. Descubra se você consegue lembrar onde estão os emojis certos!</p>
+            <a href="https://thallis01.github.io/Jogo-da-memoria0/" target="_blank" class="btn">Jogue Agora</a>
+        </div>
+        <!-- Adicione uma imagem atraente de emojis aqui -->
+        <img src="capa0.png" alt="Imagem de Emojis" class="intro-image"> <!-- substitua por sua imagem -->
+    </section>
+
+    <!-- Seção Sobre o Jogo -->
+    <section id="sobre" class="about">
+        <h2>Sobre o Jogo</h2>
+        <p>O Jogo da Memória - Emoções é perfeito para todas as idades! Com vários níveis de dificuldade e emojis variados, o jogo é uma maneira divertida de melhorar sua memória e se divertir ao mesmo tempo. Vamos embarcar nessa jornada emocional?</p>
+    </section>
+
+    <!-- Seção de Capturas de Tela do Jogo -->
+    <section class="gallery">
+        <h2>Imagens do Jogo</h2>
+        <div class="gallery-images">
+            <!-- Coloque imagens do jogo abaixo -->
+            <img src="botao.png" alt="Captura de Tela 1">
+            <img src="captura2 (1).png" alt="Captura de Tela 2">
+            <img src="captura1.png" alt="Captura de Tela 3">
+        </div>
+    </section>
+
+    <!-- Seção de Contato -->
+    <section id="contato" class="contact">
+        <h2>Entre em Contato</h2>
+        <p>Tem alguma sugestão ou dúvida sobre o jogo? Nos envie uma mensagem!</p>
+        <form action="https://formspree.io/f/mpwzqejo" method="POST">
+            <input type="text" name="nome" placeholder="Seu Nome" required>
+            <input type="email" name="email" placeholder="Seu Email" required>
+            <textarea name="mensagem" rows="4" placeholder="Sua Mensagem"></textarea>
+            <button type="submit" class="btn">Enviar</button>
+        </form>
+        <div id="confirmationMessage" style="display: none; color: green; margin-top: 15px;">
+            Sua mensagem foi enviada com sucesso! Entraremos em contato em breve.
+        </div>
+    </section>
+    
+
+    <footer>
+        <p>&copy; 2024 Jogo da Memória - Emoções. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
